@@ -10,7 +10,7 @@ The framework consists of two modules (see figure below):
 - Module 1: we endow the solution with a GP prior containing a deep NN as the mean function and the Gaussian kernel. The NN parameters are fixed and the kernel parameters are estimated via heuristics (or MLE).
 - Module 2: the NN parameters are estimated by minimizing a loss function which only depends on the PDE since BC/IC are automatically satisfied through the kernels.
 
-[Flowchart_BothModules.pdf](https://github.com/user-attachments/files/16021847/Flowchart_BothModules.pdf)
+![Flowchart_BothModules.pdf](https://github.com/user-attachments/files/16021847/Flowchart_BothModules.pdf)
 
 The resulting model can solve PDE systems without any labeled data inside the domain and is particularly attractive because it $(1)$ naturally satisfies the boundary and initial conditions of a PDE system in arbitrary domains, and $(2)$ can leverage any differentiable function approximator, \eg deep NN architectures, in its mean function.
 
