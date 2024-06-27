@@ -16,6 +16,8 @@ The resulting model can solve PDE systems without any labeled data inside the do
 
 ![gif_reference](https://github.com/Bostanabad-Research-Group/GP-for-pde-solving/assets/102708675/215358e1-0563-44d7-b69b-6db621ff4649)
 
+
+
 ## Requirements
 We recommend installing the following packages via Anaconda:
 - Python == 3.9.13
@@ -36,3 +38,5 @@ If you use this code, please cite the following paper:
   year={2024}
 }
 
+## Assistance and Support
+All contributions are welcome.  If you notice any bugs, typos, or mistakes in the documentation, please report them by opening an issue on our GitHub page. Please make sure to label the issue according to the specific module or feature related to the problem.
