@@ -7,7 +7,7 @@
 Code for the paper [Neural Networks with Kernel-Weighted Corrective Residuals for Solving Partial Differential Equations](https://arxiv.org/abs/2401.03492), where we introduce kernel-weighted Corrective Residuals (CoRes) to integrate the strengths of kernel methods and deep NNs for solving nonlinear PDE systems.
 
 The framework consists of two sequential modules (see figure below):
-- Module 1: we endow the solution with a GP prior containing a deep NN as the mean function and the Gaussian kernel. The NN parameters are fixed and the kernel parameters are estimated via heuristics (or MLE) to faithfully reproduce the data sampled from boundary or initial conditions.
+- Module 1: we endow the solution with a GP prior containing a deep NN as the mean function and the Gaussian kernel. The NN parameters are fixed and the kernel parameters are estimated via heuristics (or MLE) to faithfully reproduce the data sampled from boundary and/or initial conditions.
 - Module 2: the NN parameters are estimated by minimizing a loss function which only depends on the PDE since BC/IC are automatically satisfied through the kernels.
 
 ![Flowchart](https://github.com/Bostanabad-Research-Group/GP-for-pde-solving/assets/102708675/f951e586-730d-401e-9658-582b457bd51c)
