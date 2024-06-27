@@ -28,8 +28,8 @@ We recommend installing the following packages via Anaconda:
 
 ## Usage
 After installing the above packages, you are all set to use our code. We provide two main files that demonstrate the application of NN-CoRes for solving the PDEs discussed in the paper:
-- \`main_singleoutput.py\`:
-- \`main_multioutput.py\`: 
+- `main.py`:
+- `main.py`: 
   
 ## Citation
 If you use this code, please cite the following paper:
