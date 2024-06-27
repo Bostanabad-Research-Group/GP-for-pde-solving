@@ -32,11 +32,11 @@ You can test them by downloading the repo and running the following commands in 
 - Burgers' equation: `python main_singleoutput.py --problem 'Burgers' --parameter 0.003`
 - Elliptic PDE: `python main_singleoutput.py --problem 'Elliptic' --parameter 30`
 - Eikonal equation: `python main_singleoutput.py --problem 'Eikonal' --parameter 0.01`
-- Lid-Driven cavity: `python main_multioutput.py --problem 'LDC' --parameter 5`
+- Lid-Driven Cavity: `python main_multioutput.py --problem 'LDC' --parameter 5`
 
 Alternatively, you can also simply run the files `main_singleoutput.py` or `main_multioutput.py` in your compiler.
 
-You can use additional arguments to modify settings such as the number of layers in the neural network, optimizer, number of epochs, and more. Please refer to each main file for details.
+You can use additional arguments to modify settings such as the architecture used in the mean function, optimizer, number of epochs, and more. Please refer to each main file for details.
 
 ## Contributions and Assistance
 All contributions are welcome. If you notice any bugs, mistakes or have any question about the documentation, please report them by opening an issue on our GitHub page. Please make sure to label the issue according to the specific module or feature related to the problem.
