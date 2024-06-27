@@ -12,7 +12,7 @@ The framework consists of two modules (see figure below):
 
 ![Flowchart](https://github.com/Bostanabad-Research-Group/GP-for-pde-solving/assets/102708675/f951e586-730d-401e-9658-582b457bd51c)
 
-The resulting model can solve PDE systems without any labeled data inside the domain and is particularly attractive because it $(1)$ naturally satisfies the boundary and initial conditions of a PDE system in arbitrary domains, and $(2)$ can leverage any differentiable function approximator, \eg deep NN architectures, in its mean function.
+The resulting model can solve PDE systems without any labeled data inside the domain and is particularly attractive because it (1) naturally satisfies the boundary and initial conditions of a PDE system in arbitrary domains, and (2) can leverage any differentiable function approximator such as deep NN architectures in its mean function.
 
 
 ## Requirements
