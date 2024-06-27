@@ -34,7 +34,7 @@ You can test them by downloading the repo and running the following commands in 
 - Eikonal equation: `python main_singleoutput.py --problem 'Eikonal' --parameter 0.01`
 - Lid-Driven cavity: `python main_multioutput.py --problem 'LDC' --parameter 5`
 
-You can also simply open the files `main_singleoutput.py` or `main_multioutput.py` and run them in your compiler.
+Alternatively, you can also simply run the files `main_singleoutput.py` or `main_multioutput.py` in your compiler.
 
 To modify additional settings such as the number of layers in the neural network, optimizer, mean function, etc., please refer to the respective sections inside each main file.
 
