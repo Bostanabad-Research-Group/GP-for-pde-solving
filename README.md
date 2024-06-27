@@ -36,7 +36,7 @@ You can test them by downloading the repo and running the following commands in 
 
 Alternatively, you can also simply run the files `main_singleoutput.py` or `main_multioutput.py` in your compiler.
 
-To modify additional settings such as the number of layers in the neural network, optimizer, mean function, etc., please see each main file.
+You can use additional arguments to modify settings such as the number of layers in the neural network, optimizer, number of epochs, and more. Please refer to each main file for details.
 
 ## Citation
 If you use this code or find our work interesting, please cite the following paper:
