@@ -27,9 +27,14 @@ We recommend installing the following packages via Anaconda:
 - Matplotlib == 3.5.3
 
 ## Usage
-After installing the above packages, you are all set to use our code. We provide two main files that demonstrate the application of NN-CoRes for solving the PDEs discussed in the paper:
-- `main.py`:
-- `main.py`: 
+After installing the above packages, you are all set to use our code. We provide two main files that demonstrate the application of NN-CoRes for solving the PDEs discussed in the paper.
+You can test them by running the following in your terminal:
+- Burgers' equation: `python main_singleoutput.py --problem 'Burgers' --parameter 0.006`
+- Elliptic PDE: `python main_singleoutput.py --problem 'Elliptic' --parameter 20`
+- Eikonal equation: `python main_singleoutput.py --problem 'Eikonal' --parameter 0.05`
+- Lid-Driven cavity: `python main_multioutput.py --problem 'LDC' --parameter 5`
+
+For modifying additional settings, e.g., number of layers, optimizer, mean function, etc. please see inside 
   
 ## Citation
 If you use this code, please cite the following paper:
