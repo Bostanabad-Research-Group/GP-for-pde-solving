@@ -17,7 +17,7 @@ The resulting model can solve PDE systems without any labeled data inside the do
 ![gif_reference](https://github.com/Bostanabad-Research-Group/GP-for-pde-solving/assets/102708675/215358e1-0563-44d7-b69b-6db621ff4649)
 
 ## Requirements
-We recommend installing the following packages via Anaconda:
+Please install the following packages via Anaconda:
 - Python == 3.9.13
 - PyTorch == 1.12.0
 - CUDA >= 11.3
@@ -28,12 +28,13 @@ We recommend installing the following packages via Anaconda:
 
 ## Usage
 After installing the above packages, you are all set to use our code. We provide two main files that demonstrate the application of NN-CoRes for solving the PDEs discussed in the paper.
-You can test them by running the following in your terminal:
+You can test them by downloading the repo and running the following commands in your terminal:
 - Burgers' equation: `python main_singleoutput.py --problem 'Burgers' --parameter 0.003`
 - Elliptic PDE: `python main_singleoutput.py --problem 'Elliptic' --parameter 30`
 - Eikonal equation: `python main_singleoutput.py --problem 'Eikonal' --parameter 0.01`
 - Lid-Driven cavity: `python main_multioutput.py --problem 'LDC' --parameter 5`
 
+You can also simply open the files `main_singleoutput.py` or `main_multioutput.py` and run them in your compiler.
 To modify additional settings such as the number of layers in the neural network, optimizer, mean function, etc., please refer to the respective sections inside each main file.
 
 ## Citation
