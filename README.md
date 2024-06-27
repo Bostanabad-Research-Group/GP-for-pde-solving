@@ -35,10 +35,11 @@ You can test them by downloading the repo and running the following commands in 
 - Lid-Driven cavity: `python main_multioutput.py --problem 'LDC' --parameter 5`
 
 You can also simply open the files `main_singleoutput.py` or `main_multioutput.py` and run them in your compiler.
+
 To modify additional settings such as the number of layers in the neural network, optimizer, mean function, etc., please refer to the respective sections inside each main file.
 
 ## Citation
-If you use this code, please cite the following paper:
+If you use this code or find our work interesting, please cite the following paper:
 ```bibtex
 @article{mora2024neural,
   title={Neural Networks with Kernel-Weighted Corrective Residuals for Solving Partial Differential Equations},
