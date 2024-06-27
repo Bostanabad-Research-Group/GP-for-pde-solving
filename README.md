@@ -38,5 +38,5 @@ If you use this code, please cite the following paper:
   year={2024}
 }
 
-## Assistance and Support
-All contributions are welcome.  If you notice any bugs, typos, or mistakes in the documentation, please report them by opening an issue on our GitHub page. Please make sure to label the issue according to the specific module or feature related to the problem.
+## Contributions and Assistance
+All contributions are welcome. If you notice any bugs, mistakes or have any question about the documentation, please report them by opening an issue on our GitHub page. Please make sure to label the issue according to the specific module or feature related to the problem.
