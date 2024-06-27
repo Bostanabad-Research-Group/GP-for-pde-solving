@@ -1,4 +1,4 @@
-# Neural Networks with Kernel-Weighted Corrective Residuals for Solving Partial Differential Equations
+# Neural Networks with Kernel-Weighted Corrective Residuals for Solving PDEs
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 [![Python Version](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/)
@@ -23,6 +23,7 @@ To use GP+, you first need to install the specific versions of PyTorch. The inst
 ## Citation
 If you use this code, please cite the following paper:
 
+```bibtex
 @article{mora2024neural,
   title={Neural Networks with Kernel-Weighted Corrective Residuals for Solving Partial Differential Equations},
   author={Mora, Carlos and Yousefpour, Amin and Hosseinmardi, Shirin and Bostanabad, Ramin},
