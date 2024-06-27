@@ -8,7 +8,7 @@ Code for the paper [Neural Networks with Kernel-Weighted Corrective Residuals fo
 The resulting model can solve PDE systems without any labeled data inside the domain and is particularly attractive because it $(1)$ naturally satisfies the boundary and initial conditions of a PDE system in arbitrary domains, and $(2)$ can leverage any differentiable function approximator, \eg deep NN architectures, in its mean function.
 
 ## Requirements
-We recommend installing the following packages via Anaconda.
+We recommend installing the following packages via Anaconda:
 - Python == 3.9.13
 - PyTorch == 1.12.0
 - CUDA >= 11.3
@@ -16,9 +16,6 @@ We recommend installing the following packages via Anaconda.
 - BoTorch == 0.6.4
 - Dill == 0.3.5.1
 - Matplotlib == 3.5.3
-
-To use GP+, you first need to install the specific versions of PyTorch. The installation process involves two steps: (1) installing the specific version of PyTorch based on your system, and (2) installing GP+.
-
 
 ## Citation
 If you use this code, please cite the following paper:
