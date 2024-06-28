@@ -17,7 +17,7 @@ The resulting model can solve PDE systems without any labeled data inside the do
 ![gif_reference](https://github.com/Bostanabad-Research-Group/GP-for-pde-solving/assets/102708675/215358e1-0563-44d7-b69b-6db621ff4649)
 
 ## Requirements
-Please install the following packages via Anaconda:
+Please ensure the following packages are installed with the specified versions. If you prefer to use Anaconda, the commands for creating an environment and installing these packages through Anaconda prompt are also provided:
 - Python == 3.9.13 `conda create --name NN_CoRes python=3.9.13`
 - PyTorch == 1.12.0 & CUDA >= 11.3 `conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch`
 - GPyTorch == 1.7.0 `conda install -c gpytorch gpytorch=1.7.0`
