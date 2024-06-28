@@ -1,9 +1,6 @@
 # Neural Networks with Kernel-Weighted Corrective Residuals for Solving PDEs
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-[![Python Version](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/)
-[![Conda](https://img.shields.io/conda/v/gpytorch/gpytorch.svg)](https://anaconda.org/gpytorch/gpytorch)
-
 Code for the paper [Neural Networks with Kernel-Weighted Corrective Residuals for Solving Partial Differential Equations](https://arxiv.org/abs/2401.03492), where we introduce kernel-weighted Corrective Residuals (CoRes) to integrate the strengths of kernel methods and deep NNs for solving nonlinear PDE systems.
 
 The framework consists of two sequential modules (see figure below):
