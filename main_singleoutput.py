@@ -4,14 +4,13 @@ from utils import get_data, set_seed, load
 import argparse
 
 ############################### Solving single-output PDEs via NN-CoRes ##############################
-
 ############################### 0. Define Parameters in Parser #######################################
 def get_parser():
     parser = argparse.ArgumentParser(description='NN-CoRes solver')
     
     # Equation parameters: \nu, \alpha or \epsilon depending on whether it is Burgers, Elliptic or Eikonal problem 
-    parser.add_argument("--problem", type = str, default = 'Eikonal') # Burgers Elliptic Eikonal
-    parser.add_argument("--parameter", type = float, default = 0.01) 
+    parser.add_argument("--problem", type = str, default = 'Burgers') # Burgers Elliptic Eikonal
+    parser.add_argument("--parameter", type = float, default = 0.003) 
     
     # Sampling points
     parser.add_argument("--n_pde", type = int, default = 10000)
@@ -65,7 +64,7 @@ model.fit(optimizer = options.optimizer,
           plot_hist = options.plot_loss, 
           **options.tkwargs)
 
-model.save(fld = 'Models/NN-CoRes_' + options.problem) # If instead you want to load a saved model, use model = load(fld = '...')
+model.save(fld = 'Models/NN-CoRes_' + options.problem) # If you want to load a saved model, use model = load(fld = '...')
 
 ############################### 4. Evaluate Model ###########################################
 model.evaluate(X_test, U_test)

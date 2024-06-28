@@ -53,9 +53,7 @@ X_bdy, X_col, X_test, U_bdy, U_test = get_data(problem = options.problem,
                                                **options.tkwargs)
 
 ############################### 2. Build Model ##############################################
-model = NN_CoRes_MultiOutput(problem = options.problem,
-                             parameter = options.parameter,
-                             X_bdy = X_bdy, 
+model = NN_CoRes_MultiOutput(X_bdy = X_bdy, 
                              X_col = X_col, 
                              U_bdy = U_bdy, 
                              NN_layers = options.layers, 
