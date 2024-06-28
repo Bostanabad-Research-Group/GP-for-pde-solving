@@ -29,10 +29,10 @@ Please ensure the following packages are installed with the specified versions. 
 ## Usage
 After installing the above packages, you are all set to use our code. We provide two main files that demonstrate the application of NN-CoRes for solving the PDEs discussed in the paper.
 You can test them by downloading the repo and running the following commands in your terminal:
-- Burgers' equation: `python main_singleoutput.py --problem 'Burgers' --parameter 0.003`
-- Elliptic PDE: `python main_singleoutput.py --problem 'Elliptic' --parameter 30`
-- Eikonal equation: `python main_singleoutput.py --problem 'Eikonal' --parameter 0.01`
-- Lid-Driven Cavity: `python main_multioutput.py --problem 'LDC' --parameter 5`
+- Burgers' equation: `python main_singleoutput.py --problem Burgers --parameter 0.003`
+- Elliptic PDE: `python main_singleoutput.py --problem Elliptic --parameter 30`
+- Eikonal equation: `python main_singleoutput.py --problem Eikonal --parameter 0.01`
+- Lid-Driven Cavity: `python main_multioutput.py --problem LDC --parameter 5`
 
 Alternatively, you can also simply run the files `main_singleoutput.py` or `main_multioutput.py` in your compiler.
 
