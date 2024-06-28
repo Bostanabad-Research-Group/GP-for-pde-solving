@@ -301,7 +301,7 @@ def get_data(problem = 'Burgers', parameter = 10, N_bdy = 40, N_col_boundary = 1
 
         ### Generate collocation points 
         def exact_solution_lidcavity():
-            DATA_np = np.loadtxt(r"..\NN-CoRes\Datasets\LDC\A" + str(int(parameter)) + r".txt") 
+            DATA_np = np.loadtxt(r"..\NN-CoRes\LDC_Dataset\A" + str(int(parameter)) + r".txt") 
             DATA_ = DATA_np[np.random.permutation(DATA_np.shape[0]), :]    #It has solutions for 3K points
             DATA = torch.from_numpy(DATA_[:,...]) #x , y , u , u_x , u_y , u_xx , u_yy 
 
