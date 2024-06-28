@@ -24,7 +24,7 @@ Please ensure the following packages are installed with the specified versions. 
 - Tqdm >= 4.66.4 `pip install tqdm`
 
 ## Usage
-After installing the above packages, you are all set to use our code. We provide the code that demonstrate the application of NN-CoRes for solving the PDEs discussed in the paper.
+After installing the above packages, you are all set to use our code. We provide two main files that demonstrate the application of NN-CoRes for solving the PDEs discussed in the paper.
 You can test them by downloading the repo and running the following commands in your terminal:
 - Burgers' equation: `python main_singleoutput.py --problem Burgers --parameter 0.003`
 - Elliptic PDE: `python main_singleoutput.py --problem Elliptic --parameter 30`
