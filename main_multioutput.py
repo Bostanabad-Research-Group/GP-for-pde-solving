@@ -66,7 +66,8 @@ model.fit(optimizer = options.optimizer,
           plot_hist = options.plot_loss, 
           **options.tkwargs)
 
-model.save(fld = 'Models/NN-CoRes_' + options.problem) # If you want to load a saved model, use model = load(fld = '...')
+# If you want to save a model, use model.save(fld = 'Models/NN-CoRes_' + options.problem) 
+# If you want to load a saved model, use model = load(fld = '...')
 
 ############################### 4. Evaluate Model ###########################################
 model.evaluate(X_test, U_test)
