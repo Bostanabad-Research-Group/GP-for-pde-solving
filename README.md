@@ -16,7 +16,7 @@ The resulting model can solve PDE systems without any labeled data inside the do
 ## Requirements
 Please ensure the following packages are installed with the specified versions. If you prefer to use Anaconda, the commands for creating an environment and installing these packages through Anaconda prompt are also provided:
 - Python == 3.9.13: `conda create --name NN_CoRes python=3.9.13` and then activate the environment via `conda activate NN_CoRes`
-- PyTorch == 1.12.0 & CUDA >= 11.3: `conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch`
+- [PyTorch](https://github.com/pytorch/pytorch) == 1.12.0 & CUDA >= 11.3: `conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch`
 - [GPyTorch](https://github.com/cornellius-gp/gpytorch) == 1.7.0: `conda install -c gpytorch gpytorch=1.7.0`
 - [JAX](https://github.com/google/jax) == 0.4.25: `pip install jax==0.4.25 jaxlib==0.4.25 jaxtyping==0.2.25`
 - Dill == 0.3.5.1: `pip install dill==0.3.5.1`
