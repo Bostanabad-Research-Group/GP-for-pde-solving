@@ -9,6 +9,7 @@ from scipy.sparse import identity
 from scipy.sparse import diags
 from scipy.sparse import identity
 import scipy
+import os 
 
 def set_seed(seed):
     random.seed(seed)
@@ -301,7 +302,10 @@ def get_data(problem = 'Burgers', parameter = 10, N_bdy = 40, N_col_boundary = 1
 
         ### Generate collocation points 
         def exact_solution_lidcavity():
-            DATA_np = np.loadtxt(r"..\NN-CoRes\LDC_Dataset\A" + str(int(parameter)) + r".txt") 
+            script_dir = os.path.dirname(os.path.abspath(__file__)) 
+            dataset_filename = "LDC_Dataset\A" + str(int(parameter)) + ".txt"
+            dataset_path = os.path.join(script_dir, dataset_filename)
+            DATA_np = np.loadtxt(dataset_path) 
             DATA_ = DATA_np[np.random.permutation(DATA_np.shape[0]), :]    #It has solutions for 3K points
             DATA = torch.from_numpy(DATA_[:,...]) #x , y , u , u_x , u_y , u_xx , u_yy 
 
