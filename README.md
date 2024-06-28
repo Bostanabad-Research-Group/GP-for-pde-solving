@@ -18,13 +18,11 @@ The resulting model can solve PDE systems without any labeled data inside the do
 
 ## Requirements
 Please install the following packages via Anaconda:
-- Python == 3.9.13
-- PyTorch == 1.12.0
-- CUDA >= 11.3
-- GPyTorch == 1.7.0
-- BoTorch == 0.6.4
-- Dill == 0.3.5.1
-- Matplotlib == 3.5.3
+- Python == 3.9.13 `conda create --name NN_CoRes python=3.9.13`
+- PyTorch == 1.12.0 & CUDA >= 11.3 `conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch`
+- GPyTorch == 1.7.0 `conda install -c gpytorch gpytorch=1.7.0`
+- Dill == 0.3.5.1 `pip install dill==0.3.5.1`
+- Matplotlib == 3.5.3 `conda install -c conda-forge matplotlib=3.5.3`
 
 ## Usage
 After installing the above packages, you are all set to use our code. We provide two main files that demonstrate the application of NN-CoRes for solving the PDEs discussed in the paper.
