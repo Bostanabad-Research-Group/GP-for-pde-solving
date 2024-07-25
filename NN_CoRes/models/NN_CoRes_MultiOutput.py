@@ -236,7 +236,7 @@ class NN_CoRes_MultiOutput(GPR):
                 optim.zero_grad()
                 loss = self.calculate_loss()
                 loss.backward(retain_graph=True)
-                optimizer.step()
+                optim.step()
                 desc = f'Epoch {j} - loss {loss.item():.6f}'
                 epochs_iter.set_description(desc)
                 epochs_iter.update(1)
