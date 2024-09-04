@@ -11,6 +11,8 @@ The framework consists of two sequential modules (see figure below):
 
 The resulting model can solve PDE systems without any labeled data inside the domain and is particularly attractive because it (1) naturally satisfies the boundary and initial conditions of a PDE system in arbitrary domains, and (2) can leverage any differentiable function approximator such as deep NN architectures in its mean function.
 
+![Burgers_Elliptical_Results_Low](https://github.com/user-attachments/assets/09a9daf8-aafd-43ac-a6c4-72152fce70b6)
+
 ## Requirements
 Please ensure the following packages are installed with the specified versions. If you prefer to use Anaconda, the commands for creating an environment and installing these packages through its prompt are also provided:
 - Python == 3.9.13: `conda create --name NN_CoRes python=3.9.13` and then activate the environment via `conda activate NN_CoRes`
