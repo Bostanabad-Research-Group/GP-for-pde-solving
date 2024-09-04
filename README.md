@@ -11,8 +11,6 @@ The framework consists of two sequential modules (see figure below):
 
 The resulting model can solve PDE systems without any labeled data inside the domain and is particularly attractive because it (1) naturally satisfies the boundary and initial conditions of a PDE system in arbitrary domains, and (2) can leverage any differentiable function approximator such as deep NN architectures in its mean function.
 
-<img src="https://github.com/Bostanabad-Research-Group/GP-for-pde-solving/assets/102708675/215358e1-0563-44d7-b69b-6db621ff4649" width="400" />
-
 ## Requirements
 Please ensure the following packages are installed with the specified versions. If you prefer to use Anaconda, the commands for creating an environment and installing these packages through its prompt are also provided:
 - Python == 3.9.13: `conda create --name NN_CoRes python=3.9.13` and then activate the environment via `conda activate NN_CoRes`
