@@ -1,7 +1,7 @@
 # Combining Neural Networks with Kernel Methods for Solving Nonlinear PDEs
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-Code for the paper [Neural Networks with Kernel-Weighted Corrective Residuals for Solving Partial Differential Equations](https://arxiv.org/abs/2401.03492), where we introduce kernel-weighted Corrective Residuals (CoRes) to integrate the strengths of kernel methods and deep NNs for solving nonlinear PDE systems.
+Code for the paper [A Gaussian process framework for solving forward and inverse problems involving nonlinear partial differential equations](https://link.springer.com/article/10.1007/s00466-024-02559-0), where we introduce kernel-weighted Corrective Residuals (CoRes) to integrate the strengths of kernel methods and deep NNs for solving nonlinear PDE systems.
 
 The framework consists of two sequential modules (see figure below):
 - Module 1: we endow the solution with a GP prior containing a deep NN as the mean function and the Gaussian kernel. The NN parameters are fixed and the kernel parameters are estimated via heuristics (or MLE) to faithfully reproduce the data sampled from boundary and/or initial conditions.
