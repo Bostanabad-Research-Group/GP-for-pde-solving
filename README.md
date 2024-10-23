@@ -21,7 +21,7 @@ Please ensure the following packages are installed with the specified versions. 
 - [JAX](https://github.com/google/jax) == 0.4.25: `pip install jax==0.4.25 jaxlib==0.4.25 jaxtyping==0.2.25`
 - Dill == 0.3.5.1: `pip install dill==0.3.5.1`
 - Matplotlib == 3.5.3: `conda install -c conda-forge matplotlib=3.5.3`
-- Tqdm >= 4.66.4 `pip install tqdm`
+- Tqdm >= 4.66.4: `pip install tqdm`
 
 ## Usage
 After installing the above packages, you are all set to use our code. We provide two main files that demonstrate the application of NN-CoRes for solving the PDEs discussed in the paper.
